@@ -6,7 +6,8 @@ node {
     stage('Build') {
 		echo 'Building....'
 		sh 'gradle --version'
-		sh './gradlew build'
+		SH 'chmod a+x ./gradlew'
+		sh './gradlew clean'
 	}	
     stage('Test') {
 	echo 'Testing At master branch'

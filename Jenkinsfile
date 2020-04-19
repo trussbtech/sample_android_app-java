@@ -8,6 +8,7 @@ node {
 		sh 'gradle --version'
 		sh 'chmod a+x ./gradlew'
 		sh './gradlew clean'
+		echo 'Building code on new_feature branch'
 	}	
     stage('Test') {
 	echo 'Testing At master branch'

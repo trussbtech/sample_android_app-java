@@ -7,8 +7,7 @@ node {
 		echo 'Building....'
 		sh 'gradle --version'
 		sh 'chmod a+x ./gradlew'
-		sh './gradlew clean'
-		echo 'Building code on new_feature branch'
+		sh './gradlew build'
 	}	
     stage('Test') {
 	echo 'Testing At master branch'

@@ -4,8 +4,8 @@ node {
 	git branch: '${branch}', url: 'https://github.com/trussbtech/JenkinsGroovy.git'
     }
     stage('Build') {
-		echo 'Building....
-		sh 'gradle --version'
+	echo 'Building....'
+	sh 'gradle --version'
 	}	
     stage('Test') {
 	echo 'Testing New Feature'

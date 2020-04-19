@@ -1,3 +1,6 @@
+/** and 
+  Adding comments to file for tetsing
+*/
 package org.gradle.samples;
 
 import androidx.appcompat.app.AppCompatActivity;

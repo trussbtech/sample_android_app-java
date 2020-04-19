@@ -4,7 +4,7 @@ node {
 		git branch: '${branch}', url: 'https://github.com/trussbtech/sample_android_app-java.git'
     }
     stage('Build') {
-		echo 'Building....'
+		echo 'Building. Development branch'
 		sh 'gradle --version'
 		sh 'chmod a+x ./gradlew'
 		sh './gradlew clean'
